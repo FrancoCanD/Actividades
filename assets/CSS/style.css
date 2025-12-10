@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+nav {
+    background-color: #333;
+    color:white;
+    margin: 10px;
+    padding: 15px 20px;
+    border: none;
+    text-align: center;
+}
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+section {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    color:black;
+    margin: 0px;
+    padding: 10px;
+}
+p {
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 10px;
+}
+.matriz {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    border-style: none;
+    display: flex;
+}
+.container {
+    width: 800px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: #333;
+    box-sizing: border-box;
+}
+#image {
+    text-align: center;
+}
+img {
+    margin: 20px;
+    padding: 10px;
+}
+@media (max-width:450px) {
+    body {
+        font-size:x-small;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    .matriz {
+        flex-direction: row;
+        align-items: center;
+    }
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    p {
+        font-size: small;
+    }
+}
+@media (max-width:720px) and (min-width:450px) {
+    body {
+        font-size:small;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    .matriz {
+        flex-direction: row;
+        align-items: center;
+    }
+    .container {
+        flex-direction: column;
+    }
+    p {
+        font-size: medium;
+    }
+}
+@media (max-width:1080px) and (min-width:721px) {
+    nav {
+        display:flex;
+        justify-content: center;
+    }
+    .matriz {
+        flex-direction: row;
+        align-items: center;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+    }
+    p {
+        font-size: large;
+    }
+}
+@media (min-width:1081px) {
+    .matriz {
+        flex-direction: row;
+        align-items: center;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+    }
+}
