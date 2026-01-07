@@ -83,7 +83,7 @@ img {
         font-size: small;
     }
 }
-@media (max-width:720px) and (min-width:450px) {
+@media (max-width:720px) and (min-width:451px) {
     body {
         font-size:small;
     }
